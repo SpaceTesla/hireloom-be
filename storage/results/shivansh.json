@@ -1,0 +1,70 @@
+{
+    "name": "Shivansh Karan",
+    "email": "shivansh.karan@gmail.com",
+    "phone": "+918884230972",
+    "linkedin": "linkedin.com/in/shivansh-karan",
+    "github": "github.com/SpaceTesla",
+    "education_level": "Bachelor's",
+    "university": "Dayananda Sagar College of Engineering",
+    "graduation_year": 2026,
+    "technical_skills": [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "Go",
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "Bootstrap",
+        "Redux",
+        "Figma",
+        "Node.js",
+        "Express.js",
+        "Gin",
+        "FastAPI",
+        "Flask",
+        "MongoDB",
+        "Firebase",
+        "Prisma",
+        "PostgreSQL",
+        "MySQL",
+        "Docker",
+        "GitHub Actions",
+        "AWS",
+        "Cloudflare"
+    ],
+    "soft_skills": [],
+    "other_skills": [],
+    "total_experience_years": 1.0,
+    "current_role": "Chief Technology Officer",
+    "current_company": "Anthrapi",
+    "project_count": 3,
+    "key_projects": [
+        "Gimnis: Built a dynamic customer portal with Next.js and Tailwind CSS where users browse restaurant menus and select catering combos, driving a seamless ordering flow. Integrated WhatsApp and email notifications: when a combo is chosen, the site packages order details and dispatches them via WhatsApp API and SMTP for real-time client communication.",
+        "Buttrpaper: Built a fast, visually engaging website using Next.js with attention to responsive design and smooth user experience. Led technical SEO efforts including image optimization, robots.txt, sitemaps, and the Google Search Console setup to improve search visibility.",
+        "Mivro: Architected with Manifest V3: used a background script (service worker) to securely fetch nutritional data from the API (with rate-limit handling) and passed it to content scripts via message channels. Injected a real-time UI overlay by leveraging DOM MutationObservers plus dynamic CSS/JS insertion to render categorized nutrient scores, health-risk flags, and fallback logic for offline or blocked API calls."
+    ],
+    "hackathon_wins": 4,
+    "notable_achievements": [
+        "1st Place, Sentinel Hack 5.0 (24 hour hackathon, 50+ teams) - April 2025",
+        "2nd Place, Pragathi 2.0 (2 days ideathon, 50+ teams) - December 2024",
+        "3rd Place, DevHack (36 hour hackathon, 300+ teams, 120+ institutions) - September 2024",
+        "2nd Place, HACK-O-RAMA! (8 hour hackathon, 35+ teams) - February 2024"
+    ],
+    "technical_strength": "Strong",
+    "experience_level": "Mid-level",
+    "fit_score": 9,
+    "key_strengths": [
+        "Strong Full-Stack Development (Next.js, Node.js, Go, Python)",
+        "Leadership in Tech Strategy and Architecture",
+        "Proficiency in DevOps and CI/CD",
+        "Technical SEO and Performance Optimization",
+        "API Integration and System Design",
+        "Competitive Problem-Solver (Hackathon Wins)"
+    ],
+    "areas_for_improvement": [
+        "Limited professional experience duration.",
+        "Further specialization in cloud infrastructure or advanced database solutions.",
+        "Explicit demonstration of testing and security best practices."
+    ]
+}

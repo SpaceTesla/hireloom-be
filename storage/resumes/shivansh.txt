@@ -1,0 +1,48 @@
+Shivansh Karan
+(+91) 88842-30972 | shivansh.karan@gmail.com | linkedin.com/in/shivansh-karan | github.com/SpaceTesla
+Education
+Dayananda Sagar College of Engineering Bengaluru, India
+Bachelor of Engineering – Computer Science and Engineering 2022 – 2026
+HMR International School Bengaluru, India
+12th Standard 2020 – 2022
+Technical Skills
+Programming Languages: JavaScript, TypeScript, Python, Go
+Frontend Development: React, Next.js, Tailwind CSS, Bootstrap, Redux, Figma
+Backend Development: Node.js, Express.js, Gin, FastAPI, Flask
+ORM & Database Tools: MongoDB, Firebase, Prisma, PostgreSQL, MySQL
+DevOps & CI/CD Tools: Docker, GitHub Actions, AWS, Cloudflare
+Experience
+Chief Technology Officer July 2025 – Present
+Anthrapi Bengaluru, India
+• Leading tech strategy and architecture for all client projects at a fast-growing digital agency.
+• Built scalable workflows—including CI/CD, version control, and automated deployment pipelines—to
+streamline releases.
+• Hands-on contributor to both frontend and backend, primarily using Next.js alongside modern backend
+frameworks.
+Full-Stack Developer December 2024 – June 2025
+Anthrapi Bengaluru, India
+• Built responsive, SEO-optimized websites and apps using Next.js, TypeScript, and Tailwind CSS.
+• Implemented scalable and resilient database solutions to ensure high availability and efficient data
+handling across client projects.
+• Worked closely with designers to turn UI/UX concepts into clean, functional interfaces.
+Projects
+Gimnis | Full-Stack, Next.js, Tailwind CSS, Catering Booking Live
+• Built a dynamic customer portal with Next.js and Tailwind CSS where users browse restaurant menus and
+select catering combos, driving a seamless ordering flow.
+• Integrated WhatsApp and email notifications: when a combo is chosen, the site packages order details and
+dispatches them via WhatsApp API and SMTP for real-time client communication.
+Buttrpaper | Frontend, Next.js, Performance Optimization, Technical SEO Live
+• Built a fast, visually engaging website using Next.js with attention to responsive design and smooth user
+experience.
+• Led technical SEO efforts including image optimization, robots.txt, sitemaps, and the Google Search
+Console setup to improve search visibility.
+Mivro | Chrome Extension, Manifest V3, Content and Background Scripts, API Integration GitHub
+• Architected with Manifest V3: used a background script (service worker) to securely fetch nutritional data
+from the API (with rate-limit handling) and passed it to content scripts via message channels.
+• Injected a real-time UI overlay by leveraging DOM MutationObservers plus dynamic CSS/JS insertion to
+render categorized nutrient scores, health-risk flags, and fallback logic for offline or blocked API calls.
+Achievements
+• 1st Place, Sentinel Hack 5.0 (24 hour hackathon, 50+ teams) — April 2025
+• 2nd Place, Pragathi 2.0 (2 days ideathon, 50+ teams) — December 2024
+• 3rd Place, DevHack (36 hour hackathon, 300+ teams, 120+ institutions) — September 2024
+• 2nd Place, HACK-O-RAMA! (8 hour hackathon, 35+ teams) — February 2024

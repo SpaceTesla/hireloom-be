@@ -1,0 +1,49 @@
+Naman Raj
+(+91) 73218-96070 | rajnaman488@gmail.com | linkedin.com/in/namanraj24 | github.com/Denyme24
+Education
+Dayananda Sagar College of Engineering Bengaluru, India
+Bachelor of Engineering – Information Science and Engineering 2023 – 2027
+The Chandrasheel School Bihar, India
+12th Standard 2020 – 2022
+Technical Skills
+Programming Languages: JavaScript, TypeScript, Python, Go
+Frontend Development: React, Next.js, Tailwind CSS, Bootstrap, Redux
+Backend Development: Node.js, Express.js, FastAPI
+ORM & Database Tools: MongoDB, Firebase, PostgreSQL, MySQL
+DevOps & CI/CD Tools: Docker, GitHub Actions
+Projects
+Get Me a Chai | Crowdfunding Platform, Next.js, MongoDB, Razorpay, NextAuth.js GitHub
+• Designed and developed a crowdfunding platform inspired by ”Buy Me a Coffee” to help creators receive
+direct contributions from their community.
+• Implemented user authentication using GitHub via NextAuth.js and integrated payment processing with
+Razorpay for secure transactions.
+• Utilized MongoDB Atlas for database management and ensured scalability for handling user profiles and
+contributions.
+• Deployed the application on Vercel, ensuring high availability and seamless performance for users.
+• Live Demo: get-me-a-chai-theta.vercel.app
+Resume Review | Next.js, TypeScript, FastAPI, SpaCy, Sentence-BERT, Formidable GitHub
+• Built a tool to automate resume shortlisting by calculating similarity scores between resumes and job
+descriptions using semantic analysis.
+• Developed the frontend using Next.js and TypeScript, integrating ShadCN for UI components to enhance
+user experience.
+• Implemented backend services with FastAPI, leveraging SpaCy NLP for parsing job descriptions and
+Sentence-BERT for semantic similarity comparisons.
+• Used Formidable to parse and process uploaded resumes into structured JSON, enabling precise skill and
+experience matching.
+• Facilitated seamless interaction between frontend and backend through Next.js API routes, ensuring a fast
+and efficient user experience.
+KisanSetu | Blockchain, Solidity, Gemini API, Firebase GitHub
+• Integrated a multi-lingual AI chatbot using Gemini API keys to provide real-time assistance in users’
+preferred languages.
+• Developed Ethereum-based smart contracts with Solidity and tested locally using Truffle and Ganache.
+• Implemented secure user authentication and real-time data storage with Firebase.
+• Deployed smart contracts on ZetaChain for transparent and automated transactions.
+Password Manager | React, Node.js, Express, MongoDB, Docker, REST API GitHub
+• Developed a secure password manager with a responsive React frontend and a RESTful
+Node.js/Express backend, integrated with MongoDB for credential storage.
+• Containerized the application using Docker, ensuring seamless deployment and scalability.
+• Implemented secure communication between the frontend and backend with environment-based configurations.
+Voluntary Experience
+GENESIS, ISE, DSCE Technical Member, Nov 2024 – Present
+Working on the Hackman (an open hackathon organized by the ISE department) website for Genesis,
+contributing to its development and improving its functionality.
