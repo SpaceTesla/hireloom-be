@@ -36,12 +36,9 @@ class CandidateProfile(BaseModel):
     hackathon_wins: int = Field(ge=0, description="Number of hackathon wins")
     notable_achievements: List[str] = Field(default_factory=list)
     
-    # Overall assessment
+    # Basic assessment (for parsing only)
     technical_strength: str = Field(description="Technical strength: Strong, Moderate, or Beginner")
     experience_level: str = Field(description="Experience level: Senior, Mid-level, or Junior")
-    fit_score: int = Field(ge=1, le=10, description="Fit score from 1 to 10")
-    key_strengths: List[str] = Field(default_factory=list)
-    areas_for_improvement: List[str] = Field(default_factory=list)
     
     @field_validator('email')
     @classmethod
@@ -115,6 +112,55 @@ class CandidateProfile(BaseModel):
         return v
 
 
+class ScreeningResult(BaseModel):
+    """Screening analysis result comparing candidate against job description"""
+    # Overall scores (1-10)
+    overall_fit_score: int = Field(ge=1, le=10, description="Overall fit score from 1-10")
+    technical_fit_score: int = Field(ge=1, le=10, description="Technical skills fit score from 1-10")
+    experience_fit_score: int = Field(ge=1, le=10, description="Experience level fit score from 1-10")
+    cultural_fit_score: int = Field(ge=1, le=10, description="Cultural/soft skills fit score from 1-10")
+    
+    # Detailed analysis
+    key_strengths: List[str] = Field(description="Candidate's key strengths for this role")
+    key_weaknesses: List[str] = Field(description="Areas where candidate falls short")
+    missing_skills: List[str] = Field(description="Required skills candidate lacks")
+    overqualified_areas: List[str] = Field(description="Areas where candidate is overqualified")
+    
+    # Skills analysis
+    matching_skills: List[str] = Field(description="Skills that match job requirements")
+    skill_gaps: List[str] = Field(description="Skills gaps that need attention")
+    
+    # Experience analysis
+    experience_match: str = Field(description="How well experience matches requirements")
+    seniority_level: str = Field(description="Assessed seniority level for this role")
+    
+    # Recommendation
+    hiring_recommendation: str = Field(description="Hiring recommendation: Strong Hire, Hire, Maybe, Pass")
+    confidence_level: str = Field(description="Confidence in recommendation: High, Medium, Low")
+    reasoning: str = Field(description="Detailed reasoning for the recommendation")
+    
+    # Additional insights
+    interview_focus_areas: List[str] = Field(description="Key areas to focus on during interview")
+    salary_expectations: str = Field(description="Expected salary range based on profile")
+    onboarding_plan: str = Field(description="Suggested onboarding approach if hired")
+    
+    @field_validator('hiring_recommendation')
+    @classmethod
+    def validate_hiring_recommendation(cls, v):
+        allowed_values = ["Strong Hire", "Hire", "Maybe", "Pass"]
+        if v not in allowed_values:
+            raise ValueError(f"hiring_recommendation must be one of {allowed_values}")
+        return v
+    
+    @field_validator('confidence_level')
+    @classmethod
+    def validate_confidence_level(cls, v):
+        allowed_values = ["High", "Medium", "Low"]
+        if v not in allowed_values:
+            raise ValueError(f"confidence_level must be one of {allowed_values}")
+        return v
+
+
 # Define the state for the graph
 class GraphState(TypedDict):
     """State for the graph"""
@@ -122,3 +168,5 @@ class GraphState(TypedDict):
     candidate_profile: Optional[CandidateProfile]
     raw_resume_text: Optional[str]
     resume_path: Optional[str]
+    job_description: Optional[str]
+    screening_result: Optional[ScreeningResult]

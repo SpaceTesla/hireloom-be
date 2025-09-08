@@ -1,0 +1,39 @@
+## Frontend Developer Job Description
+
+**Position:** Junior Frontend Developer  
+**Location:** Remote  
+**Type:** Full-time  
+
+### About the Role
+We're looking for a skilled Frontend Developer to join our team and help build modern, responsive web applications. 
+You'll work with cutting-edge technologies and collaborate with our backend team to deliver exceptional user experiences.
+
+### Key Responsibilities
+- Develop and maintain responsive web applications using React/Next.js
+- Build reusable UI components and design systems
+- Optimize applications for maximum speed and scalability
+- Collaborate with UX/UI designers to implement pixel-perfect designs
+- Write clean, maintainable TypeScript code
+- Implement state management solutions (Redux, Zustand, etc.)
+- Work with RESTful APIs and GraphQL
+- Ensure cross-browser compatibility and mobile responsiveness
+- Write unit and integration tests
+- Participate in code reviews and technical discussions
+
+### Required Skills
+- 3+ months of experience in frontend development
+- Proficiency in React.js and Next.js
+- Strong TypeScript skills
+- Experience with CSS frameworks (Tailwind CSS, Styled Components)
+- Knowledge of modern JavaScript (ES6+)
+- Experience with version control (Git)
+- Understanding of responsive design principles
+- Familiarity with testing frameworks (Jest, React Testing Library)
+
+### Preferred Qualifications
+- Experience with state management libraries
+- Knowledge of performance optimization techniques
+- Experience with CI/CD pipelines
+- Familiarity with design systems
+- Experience with accessibility standards (WCAG)
+
